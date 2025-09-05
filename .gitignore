@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# HuggingFace model files (too big for GitHub)
+gpt-oss-20b/
+.cache/
+*.bin
+*.pt
+*.ckpt
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
