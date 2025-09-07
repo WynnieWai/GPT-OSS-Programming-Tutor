@@ -118,7 +118,7 @@ class TutorGUI:
         return welcome
 
     def load_tutor_framework(self):
-        """Load tutor from external file (tutor9.py)"""
+        """Load tutor from external file (tutor.py)"""
         try:
             framework_path = r"C:\Users\user\Downloads\python_tutor\tutor.py"
             if not os.path.exists(framework_path):
