@@ -82,7 +82,7 @@ git clone https://huggingface.co/openai/gpt-oss-20b
 ```
 ⚠️ Note: The download is large (~40 GB) and will take time.  
 
-3. Verify the path in `tutor.py` matches your download location:  
+Verify the path in `tutor.py` matches your download location:  
 ```python
 MODEL_PATH = r"C:\Users\user\Downloads\python_tutor\gpt-oss-20b"
 ```
@@ -91,7 +91,7 @@ MODEL_PATH = r"C:\Users\user\Downloads\python_tutor\gpt-oss-20b"
 
 ## 🚀 Usage
 
-### Command Line Interface (Recommended)
+### Command Line Interface 
 ```bash
 python tutor.py
 ```
