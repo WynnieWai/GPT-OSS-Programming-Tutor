@@ -54,9 +54,13 @@ cd GPT-OSS-Programming-Tutor
 
 ### 2. Create a Virtual Environment
 ```bash
-# On Windows
+# On Windows (PowerShell)
 python -m venv venv
-.venv\Scripts\activate
+.\venv\Scripts\Activate.ps1
+
+# On Windows (Command Prompt)
+python -m venv venv
+venv\Scripts\activate.bat
 
 # On Linux/Mac
 python -m venv venv
@@ -74,7 +78,7 @@ Required for tokenizer functionality:
 2. Download the model to your local machine:
 ```bash
 git lfs install
-git clone https://huggingface.co/openai/gpt-oss-20b "C:\Users\user\Downloads\python_tutor\gpt-oss-20b"
+git clone https://huggingface.co/openai/gpt-oss-20b
 ```
 ⚠️ Note: The download is large (~40 GB) and will take time.  
 
