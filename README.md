@@ -11,8 +11,6 @@ No API keys, no internet connection, and no data ever leaves your computer.
 ## 🚀 Hackathon Submission Details
 - **Categories**: Best Local Agent, For Humanity  
 - **GPT-OSS Component Used**: gpt-oss-20b Tokenizer  
-- **Team**: Individual Submission  
-- **Video Demo**: [Link to your demonstration video here]  
 
 ---
 
