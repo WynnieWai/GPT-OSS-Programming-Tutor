@@ -110,7 +110,7 @@ Type `exit`, `quit`, or `bye` to end the session in CLI mode.
 
 ---
 
-## 🔧 How It Works
+## How It Works
 1. **Query Analysis**: User input is processed using the GPT-OSS-20B tokenizer for token counting and analysis.  
 2. **Pattern Matching**: Regex patterns match the query against the knowledge base.  
 3. **Response Generation**: Retrieves the most relevant code example with explanations.  
@@ -132,7 +132,7 @@ This project is licensed under the **MIT License** — see [Apache 2.0 License d
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - **OpenAI** for GPT-OSS-20B model  
 - **Hugging Face** for `transformers` library and hosting  
 - Hackathon organizers for pushing the frontier of open models  
