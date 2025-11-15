@@ -8,22 +8,22 @@ No API keys, no internet connection, and no data ever leaves your computer.
 
 ---
 
-## 🚀 Hackathon Submission Details
+## Hackathon Submission Details
 - **Categories**: Best Local Agent, For Humanity  
 - **GPT-OSS Component Used**: gpt-oss-20b Tokenizer  
 
 ---
 
-## ✨ Features
-- 🧠 **GPT-OSS Tokenizer Analysis**: Uses the GPT-OSS-20B tokenizer for sophisticated query processing and token counting.  
-- 🔒 **Absolute Privacy**: All processing happens locally — ideal for sensitive environments where code cannot leave your machine.  
-- 📚 **Comprehensive Knowledge Base**: Covers OOP, algorithms, file operations, web scraping, data validation, and more.  
-- 🎯 **Smart Pattern Matching**: Advanced regex-based matching system to find the most relevant code examples.  
-- 💻 **Dual Interface**: Choose between a clean command-line interface (`tutor.py`) or a graphical user interface (`gui.py`).  
+## Features
+- **GPT-OSS Tokenizer Analysis**: Uses the GPT-OSS-20B tokenizer for sophisticated query processing and token counting.  
+- **Absolute Privacy**: All processing happens locally — ideal for sensitive environments where code cannot leave your machine.  
+- **Comprehensive Knowledge Base**: Covers OOP, algorithms, file operations, web scraping, data validation, and more.  
+- **Smart Pattern Matching**: Advanced regex-based matching system to find the most relevant code examples.  
+- **Dual Interface**: Choose between a clean command-line interface (`tutor.py`) or a graphical user interface (`gui.py`).  
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 .
 ├── tutor.py              # Main command-line tutor application
@@ -35,14 +35,14 @@ No API keys, no internet connection, and no data ever leaves your computer.
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 - Python 3.8 or higher  
 - ~40 GB of free disk space for the GPT-OSS-20B model  
 - At least 8 GB of RAM  
 
 ---
 
-## 📥 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -78,7 +78,7 @@ Required for tokenizer functionality:
 git lfs install
 git clone https://huggingface.co/openai/gpt-oss-20b
 ```
-⚠️ Note: The download is large (~40 GB) and will take time.  
+Note: The download is large (~40 GB) and will take time.  
 
 Verify the path in `tutor.py` matches your download location:  
 ```python
@@ -87,7 +87,7 @@ MODEL_PATH = r"C:\Users\user\Downloads\python_tutor\gpt-oss-20b"
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Command Line Interface 
 ```bash
@@ -118,7 +118,7 @@ Type `exit`, `quit`, or `bye` to end the session in CLI mode.
 
 ---
 
-## 🌍 For Humanity: Our Impact
+## For Humanity: Our Impact
 - **Democratizing Access**: Free forever after initial model download.  
 - **Secure Development**: Safe for regulated industries (healthcare, finance, defense).  
 - **Offline Learning**: Works in areas without internet, enabling global access.  
@@ -126,7 +126,7 @@ Type `exit`, `quit`, or `bye` to end the session in CLI mode.
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the **MIT License** — see [Apache 2.0 License details](https://choosealicense.com/licenses/apache-2.0/).  
 > Note: The GPT-OSS-20B model weights are governed by their own license from OpenAI.  
 
